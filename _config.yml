@@ -1,0 +1,21 @@
+# Site settings
+title: Marcos Garcia
+email: marcos.asgarcia@gmail.com
+description: "Development"
+baseurl: "/"
+url: "http://msilvagarcia.github.io/"
+twitter_username: msilvagarcia
+github_username: msilvagarcia
+disqus_username: false
+isso_domain: false
+
+# Build settings
+markdown: redcarpet
+permalink: /:title/
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
